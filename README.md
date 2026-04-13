@@ -18,7 +18,9 @@ Barbarian: Features a calculated attack power based on attack speed and can use 
 ## Class Hierarchy
 1. Warrior (Base Class)
 TakeDamage(int damage): Calculates damage using the formula:
+
                 Health -= damage - Armor;
+   
 ShowHealthInfo(): Displays current health status.
 2.Knight (Derived Class)
 Inherits base stats.
